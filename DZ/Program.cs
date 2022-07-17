@@ -16,7 +16,7 @@ void Point19_1()
     Console.WriteLine("Введите любое число от 10 до 1001: ");
     string num = Console.ReadLine();
     bool pal = true;
-    for (int i = 0; i < num.Length - 1; i++)
+    for (int i = 0; i < (num.Length - 1) / 2; i++)
     {
         if (num[i] != num[num.Length - 1 - i])
         {
